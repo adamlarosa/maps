@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+}
+
+#map {
+	
+	height: 100vh;
+	border: solid red 10px;
+	padding: 2px;
+}
+
+/* html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} */
+
+header {
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	background: yellow;
+}
+
+header .left {
+	background: purple;
+}
+
+header .middle {
+	background: green;
+}
+
+header .right {
+	background: pink;
+}
+
+#main {
+	width: 100%;
+	border: solid red 10px;
+	padding: 5px;
+}
+
+#not {
+	width: 100%;
+	border: solid blue 10px;
+	padding: 5px;
+}
